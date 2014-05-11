@@ -1,0 +1,56 @@
+-------------------------------------------------------------
+OpenSource
+-------------------------------------------------------------
+h1. "Don't Repeat Yourself"
+
+During the course of a project, or between projects, I have found patterns that repeat themselves.  Since I am the true believer of 
+the "DRY principle":http://www.artima.com/intv/dry.html, I started collecting them, and created a project whenever I see that the benefit
+outweighed the cost.
+
+The result are the following projects.
+
+h1. BuildMaster
+
+"http://buildmaster.rubyforge.org":http://buildmaster.rubyforge.org
+
+The project that can reduce the size of your project release script greatly.
+
+Also the project that can help build a HTML based web site easily, so that you can deploy them to ANY server that supports HTML.  This
+site is also powered by BuildMaster.
+
+h1. Cotta
+
+"http://cotta.sourceforge.net/":http://cotta.sourceforge.net/
+
+A lightweight Java File IO related framework with the principle of Domain Driven and Test Driven.  
+See "Cotta Power":http://agileworks.blogspot.com/2006/07/cotta-power.html for the initial thoughts.
+
+This is also the project that embraced the "Behaviour Driven Development":http://behaviour-driven.org/.
+
+h1. DbFixture
+
+"http://dbfixture.public.thoughtworks.org/":http://dbfixture.public.thoughtworks.org/
+
+A lightweight testing fixture framework that helps database related testing using "HSQLDB":http://hsqldb.org/.
+
+The idea of DbFixture came out of two projects that we have worked on, both of which involve building our own 
+data access layer for special reason. After the end of the second project, we put together the requirement and wrote this library. 
+
+h1. jBehave
+
+"http://www.jbehave.org":http://www.jbehave.org
+
+A testing framework that carries the mission of bringing test-driven development to its full potential: 
+"Behaviour Driven":http://behaviour-driven.org/.
+
+h1. jbuilder-opentools
+
+"https://jbuilder-opentools.dev.java.net/":https://jbuilder-opentools.dev.java.net/
+
+The projects of JBuilder Opentool community during the period when JBuilder is still JBuilder.
+
+h1. XmlFixture
+
+"https://sourceforge.net/project/showfiles.php?group_id=54719&package_id=156151":https://sourceforge.net/project/showfiles.php?group_id=54719&package_id=156151
+
+A small library that can be used for XML content assertions.  Details to be updated "here":xmlfixture.html

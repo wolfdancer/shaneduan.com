@@ -1,0 +1,10 @@
+pre.code {
+  padding:10px;
+  margin:18 18px 18px 18px;
+  color:black;
+  font-family: courier new, monospace;
+  font-size: smaller;
+  border:1px solid #663366;
+  background-color: #cccccc;
+}
+

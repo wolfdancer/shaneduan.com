@@ -1,0 +1,42 @@
+-----------------------------------------------
+Experiences
+-----------------------------------------------
+h1. ThoughtWorks
+
+Currently working as a "ThoughtWorker":thoughtworks.html, traveling within US and to China for Agile Projects.
+Attended role including: 
+
+* XP coach for developers, QAs, and Business Analysts
+* Architect
+* Iteration Manager
+* Project Manager
+
+h1. Borland
+
+Worked on "JBuilder":http://www.borland.com/us/products/jbuilder/index.html.  Areas are:
+
+* JUnit Support
+* Refactoring Support
+* ErrorInsight
+* JBuilder OpenTool Testing Support
+* J2ME Support
+* Product interaction design
+
+h1. Independent Consultant
+
+My first taste of <acronym title="Extreme Programming">XP</acronym> in Portland, Oregon, 2001, which changed my perspective on the craftsmanship of
+Software and I have never turned back since.
+
+h1. Cysive
+
+As a senior consultant delivering enterprise application using RUP(Rational Unified Process).
+
+h1. EquipmentAuction.com
+
+A taste of the excitement and craziness of a startup, and the experience of a software project management that raised many questions in my mind.
+
+h1. CSC/SCI
+
+Three years of interacting with Database provided me the understanding of relational database that gives me the leverage that I need
+to work with DBA(Database Administrator).  And I also picked up PowerBuld, Shell, and As/400 RPG on the way (not that I am recommending anyone 
+to learn them).

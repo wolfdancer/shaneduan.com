@@ -1,0 +1,9 @@
+----------------------------------------------------------
+Tools
+----------------------------------------------------------
+h1. To Be Updated
+
+The computer and the internet has provided us with great power and convenience, but only if
+one knows the right set of tools.  Otherwise, we will just become the slave of the technology.
+
+Here is where I am keeping a log of the tools.

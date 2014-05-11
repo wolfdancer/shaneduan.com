@@ -1,0 +1,16 @@
+-------------------------------------
+Community Activities
+-------------------------------------
+h1. Community
+
+A person is only as good as the company he is in, a company is only as good as
+the society it is in.
+
+h1. Bay XP
+
+An XP focusd user group in the Bay area.  We meet once a month for various
+topics.  Please check us out at "http://www.bayxp.org":http://www.bayxp.org
+
+h1. Agile China
+
+An "online google group":http://groups.google.com/group/agilechina started by several ThoughtWorkers in China.

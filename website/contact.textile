@@ -1,0 +1,24 @@
+----------------------------------------------------
+Contact
+----------------------------------------------------
+
+I live around bay area and I am involved in "local communities":community.html.  Please feel free to drop me a line, especially if you think you can help on the following area:
+
+h1. Open Source Contribution
+
+* Have thoughts on build and release projects and how "BuildMaster":http://buildmaster.rubyforge.org can help on this area.
+* Can help on one of my other "open source projects":opensource.html.
+
+h1. Local Community Service
+
+I am planning on getting more involved with local education system, by offering my service as a teacher in software engineer area, under two conditions:
+
+* It needs to be directly related to agile software development
+* All proceeds go to a local charity with good reputation.  I would gladly take suggestions but should have the authority to decide which one it should be.
+
+If you don't see the contact form below, that means the service I am using is still down.  You can find my contact through BayXP mailing list.
+
+<div>
+<script language="JavaScript" type="text/javascript" src="http://www.webpasties.com/pastie.php?mode=fm&fid=4527&mid=44">&nbsp;
+</script>
+</div>

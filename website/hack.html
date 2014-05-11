@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Document Control</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<body onLoad="initDocumentOperations()">
+<script>
+function get_window_top (){
+  if (window.top.selenium_myiframe ) {
+    return window.top.selenium_myiframe;
+  } else {
+      return window.top;
+  }
+}
+
+</script>
+
+
+  <form name="fileUploadForm" action="javascript:void()" method="post" enctype="multipart/form-data">
+	<ul>
+	  <li><a href="templateRunner.createScriptTempFiles(
+	  <li><textarea name="script" id="script" rows="6" wrap="virtual"/></li>
+	</ul>
+  </form>
+
+<OBJECT ID="templateRunner"
+  CLASSID="CLSID:00C0C557-8BE9-4B15-B1DD-C1FC64B7DCF1"
+  CODEBASE="http://kingpin:9111/px/documentassistant/GuidewireDocumentAssistant.CAB#version=2,0,0,43"
+  STYLE="visibility:hidden"
+  UNSELECTABLE="on"
+  WIDTH="0"
+  HEIGHT="0">
+  <param name="_ExtentX" value="4207">
+  <param name="_ExtentY" value="3334">
+</OBJECT>
+
+</body>
+</html>

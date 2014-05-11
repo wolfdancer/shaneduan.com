@@ -1,0 +1,11 @@
+------------------------------------------------
+SSH Setup
+------------------------------------------------
+h1. To Be Updated
+
+Chances are many of you won't even care what this is about.  But after
+quite a few struggles of setting up CVS/SVN with SSH on various opensource servers, as well as configure
+IDEA and Eclipse to use the private key, I think this is a topic that worth documenting,
+so that I don't have to repeat myself.
+
+To be updated.

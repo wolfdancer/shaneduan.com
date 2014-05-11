@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.shaneduan.eclipse.keymap_0.0.2.jar" id="com.shaneduan.eclipse.keymap" version="0.0.2">
+      <category name="Key Map"/>
+   </feature>
+   <category-def name="Key Map" label="Key Map">
+      <description>
+         All the different kind of keymaps for Eclipse
+      </description>
+   </category-def>
+</site>

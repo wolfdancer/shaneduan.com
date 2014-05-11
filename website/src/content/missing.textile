@@ -1,0 +1,10 @@
+-------------------------------------------------------
+404 Page Not Found
+-------------------------------------------------------
+The page that you tried to access was not found on this
+server.  Please feel free to "contact me":contact.html if you think
+this is an error.
+
+If you reached this page through the link on this web site, then I am still updating the content.
+
+Go to "Home Page":/

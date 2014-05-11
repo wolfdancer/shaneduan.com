@@ -1,0 +1,11 @@
+-----------------------------------------------
+ThoughtWorks
+-----------------------------------------------
+I worked at "ThoughtWorks":http://www.thoughtworks.com before I joined "Guidewire":http://www.guidewire.com
+
+ThoughtWorks is a company founded by Roy Singham as his "Social Experiment":http://www.martinfowler.com/bliki/RoysSocialExperiment.html.  A company through which I 
+have met ThoughtWorkers from "all over the world":http://www.thoughtworks.com/contact-us.html and 
+exchange our "Different Ideas":http://blogs.thoughtworks.com/.
+
+Most of my "Open Source Projects":opensource.html were also created during ThoughtWorks beach time.  And I have dedicated my 
+""Agile Works":http://agileworks.blogspot.com" blog to my experience in ThoughtWorks.

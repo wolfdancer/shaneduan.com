@@ -1,0 +1,142 @@
+body {
+    margin:0px;
+    padding:0px;
+    background:#f6f6f6;
+    color:#000000;
+    font-family:"Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+}
+a:link {color:#660066;}
+a:visited{color: #330066;}
+a:hover{color:#FF0000;}
+a:active{color:#FF0000;}
+#logo{
+    padding:0px;
+    margin:0px;
+}
+div#mainClm {
+    float:right;
+    width:75%;
+    padding:30px 7% 10px 3%;
+    border-left:dotted 1px #006633;
+}
+div#sideBar {
+    margin:20px 0px 0px 1px;
+    padding:10px 0px 0px 0px;
+    text-align:left;
+}
+#header{
+    padding:0px 0px 6px 0px;
+    margin:0px 0px 0px 0px;
+    border-top:1px solid #eeeeee;
+    border-bottom:dotted 1px #FFCCFF;
+    background:#CC99CC;
+    color:white;
+}
+h1,h2,h3,h4,h5,h6{
+    padding:0px;
+    margin:0px;
+}
+h1 a:link {
+    text-decoration:none;
+    color:#F5DEB3
+}
+h1 a:visited {
+    text-decoration:none;
+    color:#F5DEB3
+}
+h1 {
+    color:#663366;
+    font-weight:bold;
+    font-family:Verdana,Sans-Serif;
+    font-size: 115%;
+    letter-spacing:-1px;
+}
+h2 {
+    margin:10px 0px 0px 0px;
+    color:#777777;
+    font-size: 115%;
+}
+h3,h4 {color:#663366;}
+h5{
+    color:#663366;
+}
+div#sideBar h1 {
+    color:white;
+    background:#330033;
+    margin:0px;
+    padding:1px 0px 1px 10px;
+    font-size:115%;
+    width: 14%;
+}
+#sideBar ul {
+    margin:0px 0px 33px 0px;
+    padding:0px 0px 0px 10px;
+    list-style-type:none;
+    font-size:95%;
+}
+#sideBar li{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    list-style-type:none;
+    font-size:115%;
+}
+#title {
+    margin:0px 0px 0px 0px;
+    padding:6px 3px 3px 9px;
+    color:#FFFFFF;
+    background:#663366;
+    font:bold Verdana, Sans-Serif;
+    font-size:150%;
+}
+#title a {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+#title a:hover {
+    color:#99FFCC;
+}
+
+#description {
+    padding:0px;
+    margin:7px 12% 7px 5%;
+    color:#9E5205;
+    background:transparent;
+    font:bold 85% Verdana,Sans-Serif;
+}
+#sideBar ul a {
+    padding:2px;
+    margin:1px;
+    width:100%;
+    border:none;
+    color:#663366;
+    text-decoration:none;
+}
+#sideBar ul a:link {color:#663366;}
+#sideBar ul a:visited {color:#663366;}
+#sideBar ul a:active {color:#ff0000;}
+#sideBar ul a:hover {
+    color:#FF0000;
+    text-decoration:none;
+}
+pre,code {color:#999999;}
+strike {color:#999999;}
+div.footer {
+  color: #330033;
+  padding:0.5em;
+  clear:both;
+  text-align:center;
+  font-size:75%;
+}
+
+div.footer a {
+  color:#330033;
+  font-size:inherit;
+}
+
+div.bottomshadow {
+  width=100%;
+  height: 12px;
+  background-image: url("/border_bottom.gif");
+  background-repeat: repeat-x;
+  padding: 12px;
+}

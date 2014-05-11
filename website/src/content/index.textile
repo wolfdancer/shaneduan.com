@@ -1,0 +1,23 @@
+----------------------------------------------------------
+Home
+----------------------------------------------------------
+h1. Shane Duan
+
+!>image.jpg!
+
+Welcome!  This site is divided into the three major sections.  Hope you enjoy it.
+
+I produce or help produce better software faster for a living, and enjoy hiking, snowboarding, traveling, as well as computer games and board games.
+
+
+h1. Recent Update
+
+h2. Hawaii Trip
+
+We finally published the "blog about our Hawaii trip":http://funworks.blogspot.com/2006_06_01_funworks_archive.html.  Now
+moving on to our recent hiking at "San Bruno Mountain":http://en.wikipedia.org/wiki/San_Bruno_Mountain.
+
+h2. BuildMaster Released
+
+This website is made available by "BuildMaster":http://buildmaster.rubyforge.org, an opensource project that I started that finally
+reached a milestone.

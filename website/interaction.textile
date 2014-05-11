@@ -1,0 +1,23 @@
+--------------------------------------------------
+Interaction Design
+--------------------------------------------------
+h1. To Be Updated
+
+Through my career and my interaction experience with electronics and web sites, I have
+grown great interest in the answer to the question:
+
+bq. "What is a good product?"
+
+This page will contain the articles, books, references that I run into in search for the answer.
+
+h1. Books
+
+* "The Inmates Are Running the Asylum":http://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672316498: The one that opens the door
+* "About Face 2.0":http://www.amazon.com/About-Face-2-0-Essentials-Interaction/dp/0764526413/ref=pd_lpo_k2_dp_k2a_3_txt/103-3140607-4378237: Very good reference for rich UI applications
+* "The Design of Everyday Things":http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0385267746: Think bad design only exists in software?  Think again.  This one gets you to look at the essence of a good design
+* "Don't Make Me Think":http://www.amazon.com/Dont-Make-Think-Approach-Usability/dp/0789723107: Targeting web design, to the point
+
+h1. Articles
+
+* "The Surprising Truth About Ugly Websites":http://www.site-reference.com/articles/Website-Development/The-Surprising-Truth-About-Ugly-Websites.htm
+* "Web Design Dissected Into 8 Bits":http://www.inspirationbit.com/web-design-dissected-into-8-bits (check out the link to the history of the fonts as well)

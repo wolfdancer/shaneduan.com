@@ -1,0 +1,54 @@
+#header{
+    padding:0px 0px 6px 0px;
+    margin:0px 0px 0px 0px;
+    background:#CC99CC;
+    border-top:1px solid #eeeeee;
+    border-bottom:dotted 1px #FFCCFF;
+    color:white;
+}
+#title {
+    margin:0px 0px 0px 0px;
+    padding:6px 3px 3px 9px;
+    color:#FFFFFF;
+    background:#663366;
+    font-family:Verdana, Sans-Serif;
+    font-weight:bold;
+    font-size:16px;
+    text-align: center;
+}
+#title a {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+#title a:hover {
+    color:#99FFCC;
+}
+
+div#sideBar {
+  display: none;
+  width: 0px;
+  float: none;
+}
+
+div#sideBar h1 {
+  display: none;
+  width: 0px;
+}
+
+#sideBar ul {
+  display: none;
+  width: 0px;
+}
+#sideBar li{
+  display: none;
+  width: 0px;
+}
+
+div#mainClm {
+    float:none;
+    padding:10px 7% 10px 3%;
+    margin:0px 0px 0px 0px;
+    border-left: none;
+    font-size: 12px;
+    font-family:"Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+}

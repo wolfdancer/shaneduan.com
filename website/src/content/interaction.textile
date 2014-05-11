@@ -1,0 +1,11 @@
+--------------------------------------------------
+Interaction Design
+--------------------------------------------------
+h1. To Be Updated
+
+Through my career and my interaction experience with electronics and web sites, I have
+grown great interest in the answer to the question:
+
+bq. "What is a good product?"
+
+This page will contain the articles, books, references that I run into in search for the answer.

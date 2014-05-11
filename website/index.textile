@@ -1,0 +1,68 @@
+----------------------------------------------------------
+Home
+----------------------------------------------------------
+h1. Shane Duan
+
+!>image.jpg!
+
+Welcome!  This site is divided into the three major sections.  Hope you enjoy it.
+
+I produce or help produce better software faster for a living, and enjoy hiking, snowboarding, traveling, as well as computer games and board games.
+
+h1. Recent Update
+
+h2. 02/08/2008 Happy Year of Rat!
+
+We are enjoying our new home at San Ramon, enough said.
+
+h2. 08/11/2007 DBEntrance
+
+I have been working with "Tod":http://www.todlandis.com on "DB Entrance":http://www.dbentrance.com, by providing an advanced editor (starting with a syntax highlighting).  The gamma version is now out!
+
+h2. 07/07/2007 Website Update
+
+I have come out of the initial shock of being a new father (You know where that blog is!), and start contributing to my work.  I also updated two pages on 
+this website: "SSH Setup":tools/ssh.html and "Open Source Projects":opensource.html
+
+h2. 06/20/2007 Renee (∂Œ«Â»Ô) is here!
+
+Our daughter came earlier than expected but both mom and baby are doing well.  I am staying home these two weeks to enjoy some good family time.
+
+h2. 05/08/2007 In Memory of Bill Bercik
+
+As my wife and I are making preparations for our daughter, Renee, entering into our life, I wasn't prepared to hear that another life has left this world: Bill Bercik, a dear friend of mine that I got to known from JBuilder team, has passed aways last Firday.  I have created "a Page for Bill Bercik":billbercik.html in his memory, until I find a better location.
+
+h2. 01/01/2007
+
+I have decided to call it a year and release the three projects that I have been working on lately.  Happy New Year!:
+
+* "BuildMaster":http://buildmaster.rubyforge.org
+* "Cotta":http://cotta.sourceforge.net
+* "Selenium-Ruby":http://selenium.rubyforge.org
+
+h2. 11/17/2006
+
+We have confirmed with the doctor that we are going to be parents!
+
+h2. 10/30/2006 Job Update
+
+Joined Guidewire
+
+h2. 07/20/2006 Content Update
+
+* "XmlFixture Tutorial":xmlfixture.html
+* "Hobby":hobby.html
+
+h2. 07/19/2006 Layout Fixed
+
+Fixed for Internet Explorer.  Now you know what my favorite browser is!
+
+h2. Hawaii Trip
+
+We finally published the "blog about our Hawaii trip":http://funworks.blogspot.com/2006_06_01_funworks_archive.html.  Now
+moving on to our recent hiking at "San Bruno Mountain":http://en.wikipedia.org/wiki/San_Bruno_Mountain.
+
+h2. BuildMaster Released
+
+This website is made available by "BuildMaster":http://buildmaster.rubyforge.org, an opensource project that I started that finally
+reached a milestone.
