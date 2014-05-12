@@ -1,0 +1,18 @@
+type: agent.filesystem
+label: Backup mount /mnt/backup
+disabled: false
+period: 60
+timeout: 30
+details:
+    target: /mnt/backup
+alarms:
+    alarm-disk-size:
+        label: Backup storage on /mnt/backup
+        notification_plan_id: npabEPlbCc
+        criteria: |
+            if (percentage(metric['used'], metric['total']) > 90) {
+                return new AlarmStatus(CRITICAL, 'Disk usage is above 90%, #{used} out of #{total}');
+            }
+            if (percentage(metric['used'], metric['total']) > 80) {
+                return new AlarmStatus(WARNING, 'Disk usage is above 80%, #{used} out of #{total}');
+            }
