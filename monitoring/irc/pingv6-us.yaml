@@ -1,18 +1,18 @@
 type: remote.ping
-label: pingv4 from US MZs
+label: pingv6 from US MZs
 disabled: false
 period: 60
 timeout: 30
 details:
-    conut: 5
+    count: 5
 monitoring_zones_poll:
     - mzdfw
     - mziad
     - mzord
-target_alias: public0_v4
+target_alias: public0_v6
 alarms:
     packet-loss:
-        label: Ping v4 packet loss
+        label: Ping v6 packet loss
         notification_plan_id: npabEPlbCc
         criteria: |
             :set consistencyLevel=ONE

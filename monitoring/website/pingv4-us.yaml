@@ -4,12 +4,12 @@ disabled: false
 period: 60
 timeout: 30
 details:
-    conut: 5
+    count: 5
 monitoring_zones_poll:
     - mzdfw
     - mziad
     - mzord
-target_alias: public1_v4
+target_alias: public0_v4
 alarms:
     packet-loss:
         label: Ping v4 packet loss
