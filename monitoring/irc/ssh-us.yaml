@@ -1,0 +1,27 @@
+type: remote.ssh
+label: ssh from US MZs
+disabled: false
+period: 60
+timeout: 30
+details:
+    count: 5
+monitoring_zones_poll:
+    - mzdfw
+    - mziad
+    - mzord
+target_alias: public1_v4
+alarms:
+    duration:
+        label: Duration for SSH checks
+        notification_plan_id: npabEPlbCc
+        criteria: |
+            :set consistencyLevel=ONE
+            if (metric['duration'] > 9000) {
+                return new AlarmStatus(CRITICAL, 'SSH check took #{duration} milliseconds, which is longer than 9 seconds.');
+            }
+            
+            if (metric['duration'] > 5000) {
+                return new AlarmStatus(WARNING, 'SSH check took #{duration} milliseconds, which is longer than 5 seconds.');
+            }
+            
+            return new AlarmStatus(OK, 'SSH check is normal, took #{duration} milliseconds with fingerprint #{fingerprint}.');

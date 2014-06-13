@@ -1,0 +1,27 @@
+type: remote.ping
+label: pingv6 from US MZs
+disabled: false
+period: 60
+timeout: 30
+details:
+    ciount: 5
+monitoring_zones_poll:
+    - mzdfw
+    - mziad
+    - mzord
+target_alias: public1_v6
+alarms:
+    packet-loss:
+        label: Ping v6 packet loss
+        notification_plan_id: npabEPlbCc
+        criteria: |
+            :set consistencyLevel=ONE
+            if (metric['available'] < 80) {
+                return new AlarmStatus(CRITICAL, 'Packet loss is greater than 20%, availability at #{available}');
+            }
+            
+            if (metric['available'] < 95) {
+                return new AlarmStatus(WARNING, 'Packet loss is greater than 5%, availability at #{available}');
+            }
+            
+            return new AlarmStatus(OK, 'Packet loss is normal, availabitiy at #{available}');
