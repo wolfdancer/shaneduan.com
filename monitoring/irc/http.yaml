@@ -1,0 +1,56 @@
+type: remote.http
+label: ZNC Bouncer Web
+disabled: false
+period: 60
+timeout: 30
+target_hostname: irc.duan.io
+target_resolver: IPv4
+details:
+    method: GET
+    url: https://irc.duan.io
+    body: ZNC
+monitoring_zones_poll:
+    - mzdfw
+    - mziad
+    - mzord
+alarms:
+    connection-time:
+        label: Connection Time
+        notification_plan_id: npOBd2IcIW
+        criteria: |
+            :set consistencyLevel=ONE
+            if (metric['duration'] > 25000) {
+                return new AlarmStatus(CRITICAL, 'HTTP request took more than 25000 milliseconds: #{duration}');
+            }
+
+            if (metric['duration'] > 20000) {
+                return new AlarmStatus(WARNING, 'HTTP request took more than 20000 milliseconds: #{duration}');
+            }
+
+            return new AlarmStatus(OK, 'HTTP connection time is normal: #{duration}');
+    ssl-cert:
+        label: SSL certificate expiration time
+        notification_plan_id: npOBd2IcIW
+        criteria: |
+            if (metric['cert_end_in'] < 604800) {
+                return new AlarmStatus(CRITICAL, 'Cert expiring in less than 604800 seconds: #{cert_end_in}');
+            }
+
+            if (metric['cert_end_in'] < 2628288) {
+                return new AlarmStatus(WARNING, 'Cert expiring in less than 2628288 seconds: #{cert_end_in}');
+            }
+
+            return new AlarmStatus(OK, 'HTTP certificate doesn\'t expire soon: #{cert_end_in}');
+    status-code:
+        label: Status Code
+        notification_plan_id: npOBd2IcIW 
+        criteria: |
+            if (metric['code'] regex '4[0-9][0-9]') {
+                return new AlarmStatus(CRITICAL, 'HTTP server responding with 4xx status');
+            }
+
+            if (metric['code'] regex '5[0-9][0-9]') {
+                return new AlarmStatus(CRITICAL, 'HTTP server responding with 5xx status');
+            }
+
+            return new AlarmStatus(OK, 'HTTP server is functioning normally');
