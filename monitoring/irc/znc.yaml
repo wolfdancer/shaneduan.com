@@ -1,0 +1,17 @@
+type: agent.plugin
+label: ZNC process
+disabled: false
+period: 60
+timeout: 30
+details:
+    file: process_mon.sh
+    args: [znc]
+alarms:
+    znc-running:
+        label: ZNC running
+        notification_plan_id: npOBd2IcIW
+        criteria: |
+            if (metric['process_count'] == 0) {
+                return new AlarmStatus(CRITICAL, 'ZNC is not running!');
+            }
+            return new AlarmStatus(OK, 'ZNC is running');
